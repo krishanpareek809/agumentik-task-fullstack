@@ -6,11 +6,6 @@ import { useAuth0 } from "@auth0/auth0-react";
 function Navbar() {
     const { loginWithRedirect, isAuthenticated, logout, user } = useAuth0();
 
-    // function logout(){
-    //     setIsLoggedIn(false);
-    //     localStorage.setItem("isUserLoggedIn", false);
-    // }
-
     return (
         <div className="navbar_container">
             <div className="navbar">
